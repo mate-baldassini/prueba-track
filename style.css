@@ -1,0 +1,358 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+    background-color: #d9e0e9 ;
+}
+
+
+.cabeza{
+    background-color: #e0e3e2;
+    margin: 0rem;
+      }
+.navegacion{
+    color: #000000;
+}
+.inicio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline none;
+    text-decoration: #000000;
+    color: #000000;
+}
+.para-vos{
+    text-decoration: none
+    color #000000
+}
+.telefono{
+    width: 3.125rem;
+    height: 3.125rem;
+    text-align: left;
+}      
+.ubicacion{
+    height: 3.125rem;
+    text-align:right
+ }
+
+.logo{
+    height: 4.375rem;
+    background-color: #ffffff;
+    line-height: 3.75rem;
+}
+h1{
+    background-color: #ffffff;
+    text-align: center;
+}
+.section-1{
+    font-size: 1rem;
+} 
+.subtitulo-1{
+    background-color:#e0e3e2 ;
+    text-align: center;
+}
+.app{
+    grid-area: app;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    background-color: #a7d6d3;  
+    text-decoration: none;
+    color: #000000;
+}
+
+.titulo_app{text-decoration: underline solid #000000;}
+
+.imgapp{
+    height: 9.375rem;
+    margin: .625rem;
+}
+
+.canje{
+    grid-area: canje;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    .titulo_canje{text-decoration: underline solid #000000;}
+    background-color: #a7d6d3;   
+}
+.ticket{
+    height: 9.375rem;
+    margin: .625rem;    
+
+}
+
+
+.referi{
+    grid-area: referi;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    background-color: #a7d6d3;
+    .titulo_referi{text-decoration: underline solid #000000;}
+
+}
+.referiimg{
+    height: 9.375rem;
+    margin: .625rem;       
+}
+
+
+.claves{grid-area: claves;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    background-color: #ffffff;
+    height: 3.75rem;
+}
+
+
+.momento{grid-area: momento;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    background-color: #ffffff;
+    height: 3.75rem;
+}
+.estafas{grid-area: estafas;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    background-color: #ffffff;
+    height: 3.75rem;
+}
+.educacion{grid-area: educacion;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    text-align: center;
+    background-color: #ffffff;
+    height: 3.75rem;
+}
+
+
+.grilla1{
+    justify-content: space-evenly;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 18.75rem); /* 4 columnas de 6.25rem cada una */
+    grid-template-rows: repeat(4, 3.125rem); /* 4 filas de 6.25rem cada una */
+    gap: 1.25rem; /* Espacio entre los elementos */
+grid-template-areas:
+"app canje referi claves"
+"app canje referi momento"
+"app canje referi estafas"
+"app canje referi educacion";
+}
+
+
+
+.parrafo-1{
+    background-color: #a7d6d3 ;
+    font-size: 2rem;
+}
+.tarjeta_1{
+    grid-area: negra;
+text-align: center;
+width: 25rem;
+height: 15.625rem;
+
+}
+.tarjeta_2{
+    grid-area: gris;
+    width: 25rem;
+    height: 15.625rem;
+}
+.mujer_tarjeta{
+    height: 33.9375rem;
+    width: 23.75rem;
+    grid-area: mujer;
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 1.25rem;
+    background-color: #ffffff;
+    grid-template-areas: 
+    "esp nav-dudas buscar"
+    
+}
+.nav-1{          
+    text-align: center;
+    grid-area: nav-dudas;
+    background-color: #ffffff;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+
+}
+
+.buscar{
+    text-align: center;
+    font-size: 9.375rem;
+    grid-area: buscar;
+
+}
+
+.beneficiosTarjeta1{
+    grid-area: beneficio1;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+background-color: #ffffff;
+}
+.beneficiosTarjeta2{
+    grid-area: beneficio2;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    ;
+}
+.imagenes_tarjetas{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* tres columnas de igual tamaño */
+    grid-template-rows: repeat(2, 1fr); /* Dos filas de igual tamaño */
+    gap: 1.25rem; /* Espacio entre los elementos */
+    width: 100%;
+    height: 37.5rem;
+    grid-template-areas:
+    "mujer negra beneficio1"
+    "mujer gris beneficio2";
+    align-content: center;
+    justify-content: space-around;
+}
+.espacios{
+    height: .625rem;
+    width: .625rem;
+}
+.solicitud{
+    grid-area: soli;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.cuentas{
+    grid-area: cuentas;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.prestamos{
+    grid-area: prestamos;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.seguros{
+    grid-area: seguro;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.inversiones{
+    grid-area: inversiones;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.grid{
+    grid-area: inversiones;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.cobros{
+    grid-area:cobro ;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.claves2{
+    grid-area: clave;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+
+.canales{
+    grid-area: canales;
+    height: 6.875rem;
+    border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+}
+
+.ayuda{
+    font-size: small;
+    height: 9.375rem;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,9.375rem);
+    gap: 1.25rem;
+    grid-template-areas: 
+    "esp soli inversiones"
+    "esp cuentas cobro"
+    "esp prestamos clave"
+    "esp seguro canales";
+}
+
+.cabeza1{
+    height: 9.375rem;
+    width: 100%;
+}
+
+
+.carousel-item{
+    height: 50rem;
+    width: 50rem;
+}
+
+.carousel{
+    text-align: center;
+}
+
+.espacio{
+    grid-area: esp;
+
+}
+
+.espacio-1{
+    background-color: #808281;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
